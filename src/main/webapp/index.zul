@@ -1,0 +1,27 @@
+<zk>
+	<borderlayout hflex="1" vflex="1">
+		<north height="100px" border="none">
+			<include src="/banner.zul"/>
+		</north>
+		<west width="250px" border="none" collapsible="true"
+			  splittable="true" minsize="90">
+			<include src="/sidebar.zul"/>
+		</west>
+		<center id="mainContent" autoscroll="true">
+			<include src="/main.zul"/>
+		</center>
+		<south height="50px" border="none">
+			<include src="/footer.zul"/>
+		</south>
+		<east width="50px" border="none" collapsible="true"
+			  splittable="true" minsize="40">
+			<label style="font-size:50px">South for footer</label>
+		</east>
+	</borderlayout>
+	<!--window apply="org.zkoss.bind.BindComposer"
+		viewModel="@id('vm')@init('ru.hostco.ovis.krg.python_ide.MyViewModel')"
+		validationMessages="@id('vmsgs')">
+		<hlayout>count: <label value="@load(vm.count)" /></hlayout>
+		<button label="add" onClick="@command('cmd')"/>
+	</window-->
+</zk>

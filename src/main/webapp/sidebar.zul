@@ -1,0 +1,13 @@
+<grid hflex="1" vflex="1" sclass="sidebar"
+	  id="fnList"
+	  apply="ru.hostco.ovis.krg.python_ide.SidebarController">
+	<columns>
+		<column width="50px"/>
+		<column/>
+	</columns>
+	<rows>
+		<row spans="2,1">
+			<button hflex="1">+</button>
+		</row>
+	</rows>
+</grid>

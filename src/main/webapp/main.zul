@@ -1,0 +1,5 @@
+<vbox vflex="1" hflex="1" align="center"
+	  pack="center" spacing="20px">
+	
+	<textbox id="mainTextarea" multiline="true" vflex="1" hflex="1"></textbox>
+</vbox>
